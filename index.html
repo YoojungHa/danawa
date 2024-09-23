@@ -1,0 +1,588 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>쇼핑몰</title>
+    <link rel="stylesheet" href="css/style.css">
+    <!-- Link Swiper's CSS -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
+</head>
+<body>
+    <header>
+        <div class="header_top">
+            <div class="centerbox1200">
+                <div class="spotmenu">
+                    <a href="#">PC구매상담</a>
+                    <a href="#">기업구매상담</a>
+                    <a href="#">조립갤러리</a>
+                    <a href="#">로그인</a>
+                    <a href="#">회원가입</a>
+                    <a href="#">고객센터</a>
+                </div>
+                <h1><a href="#"><img src="images/img_logo_main.png" alt="logo"></a></h1>
+                <div class="search_box">
+                    <input type="text" placeholder="검색어를 입력해주세요">
+                    <button type="submit"><img src="images/search.png" alt="search_icon"></button>
+                </div>
+            </div>
+        </div>
+        
+        <div class="header_bottom">
+            <div class="centerbox1200">
+                <div class="hamburger">
+                    <a href="#">
+                        <svg xmlns="http://www.w3.org/2000/svg" height="28px" viewBox="0 -960 960 960" width="28px" fill="#e33e38" class="hamburg-svg"><path d="M120-240v-80h720v80H120Zm0-200v-80h720v80H120Zm0-200v-80h720v80H120Z"/></svg>
+                    </a>
+                </div>
+                <nav>
+                    <div class="all_menu_wrap">
+                        <div class="menu1">
+                            <div class="homePC">
+                                <h2><a href="#">가정용/사무용PC</a></h2>
+                                <ul>
+                                    <li><a href="#">가정용</a></li>
+                                    <li><a href="#">미니</a></li>
+                                    <li><a href="#">올인원</a></li>
+                                </ul>
+                            </div>
+                            <div class="gamingPC">
+                                <h2><a href="#">게임용PC</a></h2>
+                                <ul>
+                                    <li><a href="#">배틀그라운드</a></li>
+                                    <li><a href="#">리그 오브 레전드</a></li>
+                                    <li><a href="#">디아블로4</a></li>
+                                </ul>
+                            </div>
+                            <div class="expertPC">
+                                <h2><a href="#">전문가용PC · 표준PC</a></h2>
+                                <ul>
+                                    <li><a href="#">전문 디자인용</a></li>
+                                    <li><a href="#">영상 편집용</a></li>
+                                    <li><a href="#">표준PC</a></li>
+                                </ul>
+                            </div>
+                            <div class="freefeePC">
+                                <h2><a href="#">무이자PC</a></h2>
+                                <ul>
+                                    <li><a href="#">게임용PC</a></li>
+                                    <li><a href="#">전문가용PC</a></li>
+                                    <li><a href="#">하이엔드PC</a></li>
+                                </ul>
+                            </div>
+                            <div class="usedPC">
+                                <h2><a href="#">중고PC · 중고매입</a></h2>
+                                <ul>
+                                    <li><a href="#">중고PC</a></li>
+                                    <li><a href="#">중고노트북</a></li>
+                                    <li><a href="#">중고매입</a></li>
+                                </ul>
+                            </div>
+                        </div>
+                        <div class="menu2">
+                            <div class="component">
+                                <h2><a href="#">PC주요부품</a></h2>
+                                <ul>
+                                    <li><a href="#">CPU</a></li>
+                                    <li><a href="#">메인보드</a></li>
+                                    <li><a href="#">메모리</a></li>
+                                    <li><a href="#">그래픽카드</a></li>
+                                    <li><a href="#">SSD</a></li>
+                                    <li><a href="#">HDD</a></li>
+                                    <li><a href="#">케이스</a></li>
+                                    <li><a href="#">파워</a></li>
+                                    <li><a href="#">쿨러/튜닝</a></li>
+                                    <li><a href="#">키보드</a></li>
+                                    <li><a href="#">마우스</a></li>
+                                    <li><a href="#">ODD</a></li>
+                                </ul>
+                            </div>
+                            <div class="monitor">
+                                <h2><a href="#">모니터 · 사운드</a></h2>
+                                <ul>
+                                    <li><a href="#">모니터</a></li>
+                                    <li><a href="#">21인치 이하</a></li>
+                                    <li><a href="#">22~25인치</a></li>
+                                    <li><a href="#">27~29인치</a></li>
+                                    <li><a href="#">30인치 이상</a></li>
+                                    <li><a href="#">모니터 주변기기</a></li>
+                                    <li><a href="#">스피커</a></li>
+                                    <li><a href="#">사운드바</a></li>
+                                    <li><a href="#">PC헤드셋</a></li>
+                                    <li><a href="#">마이크</a></li>
+                                    <li><a href="#">사운드카드</a></li>
+                                </ul>
+                            </div>
+                        </div>
+                        <div class="menu3">
+                            <div class="component2">
+                                <h2><a href="#">PC주요부품</a></h2>
+                                <ul>
+                                    <li><a href="#">SSD</a></li>
+                                    <li><a href="#">HDD</a></li>
+                                    <li><a href="#">외장SSD</a></li>
+                                    <li><a href="#">외장HDD</a></li>
+                                    <li><a href="#">NAS</a></li>
+                                    <li><a href="#">USB</a></li>
+                                    <li><a href="#">ODD</a></li>
+                                    <li><a href="#">공미디어</a></li>
+                                    <li><a href="#">메모리카드/리더기</a></li>
+                                </ul>
+                            </div>
+                            <div class="acc">
+                                <h2><a href="#">PC주변기기</a></h2>
+                                <ul>
+                                    <li><a href="#">쿨러/튜닝</a></li>
+                                    <li><a href="#">멀티/USB허브</a></li>
+                                    <li><a href="#">케이블/젠더</a></li>
+                                    <li><a href="#">공유기</a></li>
+                                    <li><a href="#">랜카드</a></li>
+                                    <li><a href="#">스위치허브</a></li>
+                                    <li><a href="#">PC 캠</a></li>
+                                    <li><a href="#">캡쳐보드</a></li>
+                                    <li><a href="#">마이크</a></li>
+                                    <li><a href="#">사운드카드</a></li>
+                                </ul>
+                            </div>
+                        </div>
+                        <div class="menu4">
+                            <div class="printer">
+                                <h2><a href="#">복합기 · 프린터 · SW</a></h2>
+                                <ul>
+                                    <li><a href="#">복합기</a></li>
+                                    <li><a href="#">프린터</a></li>
+                                    <li><a href="#">스캐너</a></li>
+                                    <li><a href="#">토너</a></li>
+                                    <li><a href="#">잉크</a></li>
+                                    <li><a href="#">소프트웨어</a></li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                    <ul class="gnb">
+                        <li><a href="#">PC견적</a></li>
+                        <li><a href="#">역경매</a></li>
+                        <li><a href="#">조립PC</a></li>
+                        <li><a href="#">게임용PC</a></li>
+                        <li><a href="#">24/36개월무이자PC</a></li>
+                        <li><a href="#">샵다나와AI</a></li>
+                        <li><a href="#">중고PC</a></li>
+                        <li><a href="#">딜러몰</a></li>
+                        <li><a href="#">기업구매상담</a></li>
+                        <li><a href="#">중고매입</a></li>
+                        <li><a href="#">이벤트</a></li>
+                    </ul>
+                </nav>
+            </div>
+            
+        </div>
+    </header>
+    <div id="visual">
+        <img src="images/image.jpg" alt="main_image1">
+    </div>
+    <div id="section_box">
+        <section id="section1">
+            <div class="centerbox1200">
+                <h2><a href="#">MD 추천 조립PC 모음</a></h2>
+                <h3>전문MD가 자신있게 추천하는 상품</h3>
+                <ul class="content">
+                    <li>
+                        <a href="#">
+                            <figure><img src="images/PC01_01.png" alt="PC01_01"></figure>
+                            <span class="title">라이젠 7 9700X + RTX 4090</span>
+                            <span class="tag">게이밍</span>
+                            <span class="price">4,869,000원</span>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#">
+                            <figure><img src="images/PC01_02.png" alt="PC01_02"></figure>
+                            <span class="title">라이젠 7 7700 + RTX 4060</span>
+                            <div class="tagC">
+                                <span class="tag">작업용</span>
+                                <span class="tag">3D CAD</span>
+                            </div>
+                            <span class="price">1,600,000원</span>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#">
+                            <figure><img src="images/PC01_03.png" alt="PC01_03"></figure>
+                            <span class="title">라이젠 5 7500F + RTX 4060 Ti</span>
+                            <span class="tag">작업용</span>
+                            <span class="price">1,516,000원</span>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#">
+                            <figure><img src="images/PC01_04.png" alt="PC01_04"></figure>
+                            <span class="title">라이젠 7 9700X + RTX 4070 S</span>
+                            <span class="tag">게이밍</span>
+                            <span class="price">2,863,000원</span>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#">
+                            <figure><img src="images/PC01_05.png" alt="PC01_05"></figure>
+                            <span class="title">i5 12400F + RTX 4060</span>
+                            <span class="tag">가성비</span>
+                            <span class="price">1,711,000원</span>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#">
+                            <figure><img src="images/PC01_06.png" alt="PC01_06"></figure>
+                            <span class="title">i7 14700KF + RTX 3060</span>
+                            <span class="tag">게이밍</span>
+                            <span class="price">3,715,000원</span>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#">
+                            <figure><img src="images/PC01_07.png" alt="PC01_07"></figure>
+                            <span class="title">라이젠 5 7500F + RX 6800</span>
+                            <span class="tag">가성비</span>
+                            <span class="price">1,518,000원</span>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#">
+                            <figure><img src="images/PC01_08.png" alt="PC01_08"></figure>
+                            <span class="title">라이젠 5 7500F + RX 4060 Ti</span>
+                            <span class="tag">가성비</span>
+                            <span class="price">1,432,000원</span>
+                        </a>
+                    </li>
+                </ul>
+            </div>
+        </section>
+        <section id="section2">
+            <div class="centerbox1200">
+                <h2><a href="#">구매후기</a></h2>
+                <div class="swiper mySwiper">
+                    <div class="swiper-wrapper">
+                        <div class="swiper-slide">
+                            <a href="#">
+                                <figure>
+                                    <img src="images/review01.jpg" alt="review01">
+                                </figure>
+                            </a>
+                        </div>
+                        <div class="swiper-slide">
+                            <a href="#">
+                                <figure>
+                                    <img src="images/review02.jpg" alt="review02">
+                                </figure>
+                            </a>
+                        </div>
+                        <div class="swiper-slide">
+                            <a href="#">
+                                <figure>
+                                    <img src="images/review03.png" alt="review03">
+                                </figure>
+                            </a>
+                        </div>
+                        <div class="swiper-slide">
+                            <a href="#">
+                                <figure>
+                                    <img src="images/review04.png" alt="review04">
+                                </figure>
+                            </a>
+                        </div>
+                        <div class="swiper-slide">
+                            <a href="#">
+                                <figure>
+                                    <img src="images/review05.jpg" alt="review05">
+                                </figure>
+                            </a>
+                        </div>
+                        <div class="swiper-slide">
+                            <a href="#">
+                                <figure>
+                                    <img src="images/reivew06.jpg" alt="review06">
+                                </figure>
+                            </a>
+                        </div>
+                        <div class="swiper-slide">
+                            <a href="#">
+                                <figure>
+                                    <img src="images/review07.jpg" alt="review07">
+                                </figure>
+                            </a>
+                        </div>
+                        <div class="swiper-slide">
+                            <a href="#">
+                                <figure>
+                                    <img src="images/review08.jpg" alt="review08">
+                                </figure>
+                            </a>
+                        </div>
+                    </div>
+                    
+                </div>
+                <div class="swiper_btns">
+                    <div class="swiper-button-next"></div>
+                    <div class="swiper-button-prev"></div>
+                </div>
+            </div>
+        </section>
+        <section id="section3">
+            <div class="centerbox1200">
+                <h2><a href="#">게이밍PC</a></h2>
+                <h3>게임별 사양 최적화</h3>
+                <ul class="content">
+                    <li>
+                        <a href="#">
+                            <figure><img src="images/PC02_01.jpg" alt="PC02_01"></figure>
+                            <span class="title">i5 14400F + RTX 3050 + 16G</span>
+                            <span class="tag">배틀그라운드</span>
+                            <span class="price">1,160,000원</span>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#">
+                            <figure><img src="images/PC02_02.jpg" alt="PC02_02"></figure>
+                            <span class="title">i5 14400F + RTX 4060 + 16G</span>
+                            <span class="tag">배틀그라운드</span>
+                            <span class="price">1,350,000원</span>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#">
+                            <figure><img src="images/PC02_03.jpg" alt="PC02_03"></figure>
+                            <span class="title">R7 5700X3D + RTX 4070S + 32G</span>
+                            <span class="tag">배틀그라운드</span>
+                            <span class="price">2,225,000원</span>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#">
+                            <figure><img src="images/PC02_04.jpg" alt="PC02_04"></figure>
+                            <span class="title">i3 14100F + GTX 1630 + 16G</span>
+                            <span class="tag">리그 오브 레전드</span>
+                            <span class="price">965,000원</span>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#">
+                            <figure><img src="images/PC02_05.jpg" alt="PC02_05"></figure>
+                            <span class="title">R5 7500F + RX 6400 + 16G</span>
+                            <span class="tag">리그 오브 레전드</span>
+                            <span class="price">1,030,000원</span>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#">
+                            <figure><img src="images/PC02_06.jpg" alt="PC02_06"></figure>
+                            <span class="title">i5 14400F + RTX 3050  + 16G</span>
+                            <span class="tag">리그 오브 레전드</span>
+                            <span class="price">1,155,000원</span>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#">
+                            <figure><img src="images/PC02_07.jpg" alt="PC02_07"></figure>
+                            <span class="title">i5 12400F + RTX 3050  + 16G</span>
+                            <span class="tag">디아블로4</span>
+                            <span class="price">995,000원</span>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#">
+                            <figure><img src="images/PC02_08.jpg" alt="PC02_08"></figure>
+                            <span class="title">R7 5700X3D + RX 7700XT + 32G</span>
+                            <span class="tag">디아블로4</span>
+                            <span class="price">2,100,000원</span>
+                        </a>
+                    </li>
+                </ul>
+            </div>
+        </section>
+        <section id="section4">
+            <div class="centerbox1200"><a href="#"><img src="images/banner01.jpg" alt="banner01"></a></div>
+        </section>
+        <section id="section5">
+            <div class="centerbox1200">
+                <h2><a href="#">기업PC 솔루션</a></h2>
+                <h3>다양한 용도에 맞춘</h3>
+                <ul class="content">
+                    <li>
+                        <a href="#">
+                            <figure><img src="images/PC03_01.png" alt="PC03_01"></figure>
+                            <span class="title">AMD 라이젠 5 세대 8600G + 앱코 G15</span>
+                            <span class="tag">일반사무용</span>
+                            <span class="price">1,100,000원</span>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#">
+                            <figure><img src="images/PC03_02.png" alt="PC03_02"></figure>
+                            <span class="title">i7 14700KF + RTX 4060 Ti</span>
+                            <span class="tag">4K 편집작업용</span>
+                            <span class="price">5,300,000원</span>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#">
+                            <figure><img src="images/PC03_03.png" alt="PC03_03"></figure>
+                            <span class="title">라이젠 7960X + AORUS X II 360</span>
+                            <span class="tag">AI 연구개발용</span>
+                            <span class="price">5,000,000원</span>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#">
+                            <figure><img src="images/PC03_04.png" alt="PC03_04"></figure>
+                            <span class="title">라이젠 7 5세대 7700 + RTX 4060</span>
+                            <span class="tag">3D 캐드작업용</span>
+                            <span class="price">1,600,000원</span>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#">
+                            <figure><img src="images/PC03_05.png" alt="PC03_05"></figure>
+                            <span class="title">라이젠 5 7500F + RTX 4060</span>
+                            <span class="tag">그래픽작업용</span>
+                            <span class="price">1,600,000원</span>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#">
+                            <figure><img src="images/PC03_06.png" alt="PC03_06"></figure>
+                            <span class="title">i7 14700KF + RTX 4070S</span>
+                            <span class="tag">3D 설계작업용</span>
+                            <span class="price">2,700,000원</span>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#">
+                            <figure><img src="images/PC03_07.png" alt="PC03_07"></figure>
+                            <span class="title">i7 13700F + RTX 4070</span>
+                            <span class="tag">빅데이터 분석용</span>
+                            <span class="price">2,200,000원</span>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#">
+                            <figure><img src="images/PC03_08.png" alt="PC03_08"></figure>
+                            <span class="title">i5 14400F + GTX 1660S</span>
+                            <span class="tag">연산 시뮬레이션용</span>
+                            <span class="price">3,800,000원</span>
+                        </a>
+                    </li>
+                </ul>
+            </div>
+        </section>
+    </div>
+    <footer>
+        <div class="centerbox1200">
+            <div class="copyright">
+                <p>(주)커넥트웨이브<br>
+                주소 (우) 08510 서울특별시 금천구 벚꽃로 298, 17층 (가산동, 대륭포스트타워6차)</p>
+                <p>
+                    · 대표 : 이건수<br>
+                    · 사업자번호 : 117-81-40065<br>
+                    · 통신판매업 제2004-서울양천-00918호<br>
+                    ·부가통신사업 : 제003081호
+                </p>
+                <p>
+                    (주) 커넥트웨이브는 고객님의 안전한 거래를 위해 이니시스의 구매안전(에스크로)에
+                    가입하여 고객님의 결제 대금을 보호하고 있습니다<br>
+                    Copyright © connectwave Co., Ltd. All Rights Reserved.
+                </p>
+            </div>
+            <ul class="footer_menu">
+                <li><a href="#">회사소개</a></li>
+                <li><a href="#">이용약관</a></li>
+                <li><a href="#">개인정보처리방침</a></li>
+                <li><a href="#">청소년 보호정책</a></li>
+                <li><a href="#">입점 및 제휴문의</a></li>
+            </ul>
+            <div class="right_footer">
+                <h1><img src="images/logo_grayscale.png" alt="footer_logo"></h1>
+                <select name="" id="">
+                    <option value="">패밀리 사이트</option>
+                    <option value="">PC26</option>
+                    <option value="">다나와</option>
+                    <option value="">에누리</option>
+                    <option value="">몰테일</option>
+                    <option value="">플레이오토</option>
+                    <option value="">메이크샵</option>
+                </select>
+            </div>
+        </div>
+    </footer>
+
+    <div class="floating_menu">
+        <p>최근본상품</p>
+        <ul>
+            <li>
+                <a href="#">
+                    <img src="images/PC01_07.jpg" alt="">
+                </a>
+            </li>
+            <li>
+                <a href="#">
+                    <img src="images/PC02_03.jpg" alt="">
+                </a>
+            </li>
+            <li>
+                <a href="#">
+                    <img src="images/PC03_08.png" alt="">
+                </a>
+            </li>
+            <li>
+                <a href="#">
+                    <img src="images/PC02_02.jpg" alt="">
+                </a>
+            </li>
+        </ul>
+        <div class="icons">
+            <a href="#" class="chat">
+                <img src="images/chat.png" alt="">
+            </a>
+            <a href="#" class="phone">
+                <img src="images/phone.png" alt="">
+            </a>
+            <a href="#" class="gotop">
+                <img src="images/top.png" alt="">
+            </a>
+        </div>
+    </div>
+
+    <script src="script/jquery-3.7.1.js"></script>
+    <script src="script/action.js"></script>
+     <!-- Swiper JS -->
+     <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+     <script>
+         var swiper = new Swiper(".mySwiper", {
+         slidesPerView: 1,  //초기값 설정 모바일값이 먼저!!
+         spaceBetween: 0,
+         pagination: {
+           el: ".swiper-pagination",
+           type: "fraction",
+         },
+         navigation: {
+           nextEl: ".swiper-button-next",
+           prevEl: ".swiper-button-prev",
+         },
+         breakpoints: {
+            
+            391: {
+             slidesPerView: 1,  //브라우저가 768보다 클 때
+             spaceBetween: 0,
+           },
+           768: {
+             slidesPerView: 3,  //브라우저가 768보다 클 때
+             spaceBetween: 5,
+           },
+           1024: {
+             slidesPerView: 4,  //브라우저가 1024보다 클 때
+             spaceBetween: 18,
+           },
+         },
+       });
+ 
+     </script>
+</body>
+</html>
